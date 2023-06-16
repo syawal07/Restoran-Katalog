@@ -427,12 +427,16 @@ footer p a {
   border-radius: 10px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   border: 1px solid #ddd;
+  
 }
 
 .restaurant__info h3,
 .restaurant__info h4 {
   margin-bottom: 5px;
   font-weight: bold;
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-block;
 }
 
 .restaurant__info p {
@@ -456,4 +460,5 @@ footer p a {
 .restaurant__info .customer-review p {
   margin-bottom: 5px;
 }
+
 
